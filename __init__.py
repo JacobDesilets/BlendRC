@@ -28,9 +28,9 @@ bl_info = {
 
 from . blendrc_props import Server_Props
 from . blendrc_panel import BLENDRC_PT_Menu
-from . blendrc_ops import BLENDRC_OT_StartServer, BLENDRC_OT_StopServer
+from . blendrc_ops import BLENDRC_OT_StartServer, BLENDRC_OT_StopServer, BLENDRC_OT_RunInput
 
-classes = (Server_Props, BLENDRC_PT_Menu, BLENDRC_OT_StartServer, BLENDRC_OT_StopServer)
+classes = (Server_Props, BLENDRC_PT_Menu, BLENDRC_OT_StartServer, BLENDRC_OT_StopServer, BLENDRC_OT_RunInput)
 
 def register():
     # Register classes

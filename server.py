@@ -38,8 +38,9 @@ class ServerThread(Thread):
                 to_send = 'INVALID\n'
             else:
                 input.input_queue.put(i)
+                to_send = ''
 
-            print(data.decode())
+            # print(data.decode())
             # if data.decode().strip() == 'STOP':
             #     break
 
